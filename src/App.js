@@ -1,24 +1,38 @@
-import logo from './logo.svg';
-import './App.css';
+import Home from "./components/home";
+import Task from './components/task';
+import Vehicle from './components/vehicle';
+import MCP from './components/mcp';
+import Message from './components/message';
+import Login from "./Login";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+  let Component
+    switch(window.location.pathname){
+        case "/":
+            Component = Login
+            break
+        case "/home":
+            Component = Home
+            break
+        case "/task":
+            Component = Task
+            break
+        case "/vehicle":
+            Component = Vehicle
+            break
+        case "/mcp":
+            Component = MCP
+            break
+        case "/message":
+            Component = Message
+            break
+        default:
+    }
+  
+  return (  
+    <>
+      <Component />
+    </>
   );
 }
 

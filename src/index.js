@@ -12,6 +12,7 @@ root.render(
   <React.StrictMode>
     <Router>
       <App />
+      <home />
       <FirstTab />
       <SecondTab />
     </Router>

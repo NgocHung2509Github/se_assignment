@@ -3,11 +3,18 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import './components/styles.css';
+import { BrowserRouter as Router } from 'react-router-dom';
+import FirstTab from './components/Home_components/AllTabs/FirstTab';
+import SecondTab from './components/Home_components/AllTabs/SecondTab';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+    <Router>
       <App />
+      <FirstTab />
+      <SecondTab />
+    </Router>
   </React.StrictMode>
 );
 

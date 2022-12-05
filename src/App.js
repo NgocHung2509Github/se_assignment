@@ -4,6 +4,16 @@ import Vehicle from './components/vehicle';
 import MCP from './components/mcp';
 import Message from './components/message';
 import Login from "./Login";
+import FirstTab from "./components/Home_components/AllTabs/FirstTab";
+import SecondTab from "./components/Home_components/AllTabs/SecondTab";
+import Info01 from "./components/Home_components/Info/Info01";
+import Info02 from "./components/Home_components/Info/Info02";
+import Info03 from "./components/Home_components/Info/Info03";
+import Info04 from "./components/Home_components/Info/Info04";
+import Info11 from "./components/Home_components/Info/Info11";
+import Info12 from "./components/Home_components/Info/Info12";
+import Info13 from "./components/Home_components/Info/Info13";
+import Info14 from "./components/Home_components/Info/Info14";
 
 function App() {
   let Component

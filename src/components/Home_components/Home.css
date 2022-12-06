@@ -1,0 +1,257 @@
+.n01 {
+position: absolute;
+width: 300px;
+height: 300px;
+left: 400px;
+top: 100px;
+background: #FFBDA8;
+border-radius: 30px;
+}
+
+.n02 {
+position: absolute;
+width: 300px;
+height: 300px;
+left: 900px;
+top: 100px;
+background: #FFBDA8;
+border-radius: 30px;
+}
+
+.n03 {
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  left: 400px;
+  top: 450px;
+  background: #FFBDA8;
+  border-radius: 30px;
+}
+
+.n04 {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    left: 900px;
+    top: 450px;
+    background: #FFBDA8;
+    border-radius: 30px;
+}
+
+a.name {
+  text-decoration: none;
+  color: black;
+  display:block;
+  text-align: center;
+  margin-top: -60px;
+  font-family: 'Inter';
+  font-weight: 700;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+a:hover.name {
+  color:#FF7777;
+}
+
+.avt {
+  width: 200px;
+  height: 200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  border-radius: 30px;
+}
+
+.mess-icon {
+  width: 20px;
+  height: 20px;
+  margin-left: 250px;
+  margin-top: 50px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.mess-icon:hover {
+  background-color: #6ad2cb;
+}
+
+#status-onl {
+  color: green;
+  margin-left: 20px;
+  margin-top: 10px;
+  font-size: 18px;
+}
+
+#status-working {
+  color: yellow;
+  margin-left: 20px;
+  margin-top: 10px;
+  font-size: 18px;
+}
+
+#status-off {
+  color: grey;
+  margin-left: 20px;
+  margin-top: 10px;
+  font-size: 18px;
+}
+
+.dot-green {
+  height: 15px;
+  width: 15px;
+  background-color: green;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.dot-yellow {
+  height: 15px;
+  width: 15px;
+  background-color: yellow;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.dot-grey {
+  height: 15px;
+  width: 15px;
+  background-color: grey;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+
+.Info {
+  position: absolute;
+  width: 1000px;
+  height: 650px;
+  left: 400px;
+  top: 100px;
+  background: #FFBDA8;
+  border-radius: 30px;
+}
+
+.avtInfo {
+  width: 200px;
+  height: 200px;
+  display: block;
+  margin-left: auto;
+  margin-right: 100px;
+  margin-top: 50px;
+  border-radius: 30px;
+}
+
+.messInfo {
+  position: absolute;
+  height: 50px;
+  width: 50px;
+  margin-left: 90%;
+  margin-top: 320px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.back-icon {
+  position: absolute;
+  height: 50px;
+  width: 50px;
+  margin-left: 0%;
+  margin-top: -250px;
+  border-radius: 5px;
+}
+
+
+.messInfo:hover {
+  background-color: #6ad2cb;
+}
+
+#nameInfo {
+  position: absolute;
+  margin-top: -200px;
+  margin-left: 50px;
+  font-family: 'Inter';
+  font-weight: 700;
+  font-size: 50px;
+}
+
+#statusInfo-onl {
+  margin-left: 280px;
+  margin-top: -180px;
+  font-size: 20px;
+  color:green;
+}
+
+#statusInfo-working {
+  margin-left: 280px;
+  margin-top: -180px;
+  font-size: 20px;
+  color: yellow;
+}
+
+#statusInfo-off {
+  margin-left: 280px;
+  margin-top: -180px;
+  font-size: 20px;
+  color: grey;
+}
+
+#Infor {
+  position: absolute;
+  left: 50px;
+  top: 100px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 35px;
+}
+
+.tableInfo {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+table {
+  position: absolute;
+  width: 800px;
+  height: 200px;
+  bottom: 130px;
+  right: 50px;
+}
+
+th {
+  width: 100px;
+  height: 30px;
+  border: 1px solid forestgreen;
+  background: #FF7777;
+  font-family: 'Inter';
+  font-style: normal;
+  color: #FFFFFF;
+}
+  
+td {
+  width: 100px;
+  height: 30px;
+  border: 1px solid forestgreen;
+  text-align: center;
+  background: #00FFD1;
+}
+
+td#off {
+  background: white;
+}
+
+.shift td {
+  position: relative;
+  height: 40px;
+  top: 250px;
+  left: 40px;
+  background: none;
+  border: none;
+}

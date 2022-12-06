@@ -33,14 +33,14 @@ export default function MCP() {
         <div class = "mcp-box">
           <span id = "hole"></span>
           <h3 class = "mcp-name">MCP04</h3>
-          <p>Địa chỉ: số 1, đường B4, Quận 5, TPHCM</p>
+          <p>Địa chỉ: số 1, đường A4, Quận 1, TPHCM</p>
           <p>Tình trạng</p>
           <span id = "full">Đã đầy</span>
         </div>
         <div class = "mcp-box">
           <span id = "hole"></span>
           <h3 class = "mcp-name">MCP05</h3>
-          <p>Địa chỉ: số 1, đường B5, Quận 5, TPHCM</p>
+          <p>Địa chỉ: số 1, đường A5, Quận 1, TPHCM</p>
           <p>Tình trạng</p>
           <span id = "full">Đã đầy</span>
         </div>

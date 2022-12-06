@@ -136,6 +136,7 @@ h2 .Login-box-name{
     position: inherit;
     left: 0;
 }
+
 .task-side-bar a {
     padding: 15px 100px 15px 40px;
     display: block;
@@ -416,4 +417,76 @@ h2 .Login-box-name{
     background: white;
     border-radius: 50%;
     box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.v-img {
+    display: block;
+    width: 400px;
+    height: 270px;
+    border-radius: 20px;
+}
+
+#vehicle-info {
+    float: left;
+    font-size: 25px;
+    font-weight: bold;
+    padding-left: 500px;
+    margin-top: -220px;
+}
+
+.info-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+}
+
+.v-side-bar {
+    width: 20%;
+    height: 100%;
+    background-color: white;
+    position: fixed;
+    left: 0;
+}
+.v-side-bar a {
+    padding: 15px 100px 15px 40px;
+    display: block;
+    text-decoration: none;
+    color: #5B5757;
+    font-size: 18px;
+}
+.v-side-bar ul {
+    display: inline;
+}
+.v-side-bar li {
+    list-style-type: none;
+    display: inline;
+    white-space: nowrap;
+}
+
+.v-side-bar h3 {
+    font-size: 20px;
+    padding-left: 38px;
+    padding-top: 12px;
+    margin-bottom: 5px;
+}
+.v-side-bar .v-border-top {
+    border-top: 1px solid gray;
+    width: 70%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.v-content {
+    margin-left: 20%;
+    margin-top: 50px;
+}
+
+.v-side-bar .task-border-top {
+    border-top: 1px solid gray;
+    width: 70%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }

@@ -1,0 +1,179 @@
+
+.chatfeed .container {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  overflow: hidden;
+}
+.chatfeed .sidebar {
+  flex: 1;
+  border-right: 1px solid white;
+  background-color: #D9D9D9;
+}
+.chatfeed .sidebar .navbar {
+  display: flex;
+  align-items: center;
+  background-color: #D9D9D9;
+  height: 50px;
+  padding: 10px;
+  justify-content: space-between;
+  color: black;
+}
+.chatfeed .sidebar .navbar .logo {
+  font-weight: bold;
+  padding-left: 25px;
+}
+.chatfeed .sidebar .user {
+  display: flex;
+  gap: 10px;
+}
+.chatfeed .sidebar .user img {
+  background-color: #ddddf7;
+  height: 24px;
+  width: 24px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.chatfeed .sidebar .search {
+  border-bottom: 1px solid #FF7777;
+}
+.chatfeed .sidebar .search .searchForm input {
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+
+.chatfeed .sidebar .userChat {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: black;
+  cursor: pointer;
+}
+
+.chatfeed .sidebar .userChat {
+  background-color: white;
+  margin: 10px;
+  border-radius: 25px;
+}
+
+.chatfeed .sidebar .userChat:hover {
+  background-color: #FF7777;
+}
+.chatfeed .sidebar .userChat img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.chatfeed .sidebar .userChat .userChatInfo span {
+  font-size: 18px;
+  font-weight: bold;
+}
+.chatfeed .chat {
+  flex: 2;
+}
+.chatfeed .chat .chatInfo {
+  height: 50px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 10px 10px 20px;
+  color: black;
+  font-weight: bold;
+  border-bottom: 1px solid #B9B9B9;
+}
+.chatfeed .chat .chatIcons {
+  display: flex;
+  gap: 10px;
+}
+.chatfeed .chat .chatIcons img {
+  margin-right: 15px;
+  height: 24px;
+  cursor: pointer;
+}
+.chatfeed .chat .messages {
+  background-color: white;
+  padding: 10px;
+  height: calc(100% - 160px);
+  overflow: scroll;
+}
+.chatfeed .chat .messages .message {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+.chatfeed .chat .messages .message .messageInfo {
+  display: flex;
+  flex-direction: column;
+  color: gray;
+  font-weight: 300;
+}
+.chatfeed .chat .messages .message .messageInfo img {
+  margin-top: 12px;
+  margin-right: 10px;
+  margin-left: -7px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.chatfeed .chat .messages .message .messageContent {
+  max-width: 40%;
+  display: flex;
+  flex-direction: column;
+}
+.chatfeed .chat .messages .message .messageContent p {
+  background-color: white;
+  padding: 10px 20px;
+  margin-bottom: 0;
+  border-radius: 0px 10px 5px 10px;
+  max-width: max-content;
+}
+
+.chatfeed .chat .messages .message.owner {
+  flex-direction: row-reverse;
+}
+.chatfeed .chat .messages .message.owner .messageContent {
+  align-items: flex-end;
+}
+.chatfeed .chat .messages .message.owner .messageContent p {
+  background-color: #FF7777;
+  color: white;
+  border-radius: 10px 0px 10px 10px;
+}
+.chatfeed .chat .input {
+  height: 50px;
+  background-color: white;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.chatfeed .chat .input input {
+  width: 100%;
+  border: none;
+  outline: none;
+  color: #FF7777;
+  font-size: 18px;
+}
+.chatfeed .chat .input input::placeholder {
+  color: lightgray;
+}
+.chatfeed .chat .input .send {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.chatfeed .chat .input .send button {
+  border: none;
+  padding: 10px 15px;
+  color: white;
+  background-color: #FF7777;
+  border-radius: 10px;
+}

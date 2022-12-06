@@ -7,9 +7,9 @@ export default function AssignTask() {
   const [startDate, setStartDate] = useState(null);
   const [endDate, setEndDate] = useState(null);
 
-  const Janitors = ["CNVS01","CNVS02", "CNVS03","CNVS04","CNVS05"];
-  const Collector = ["CNCR01","CNCR02", "CNCR03","CNCR04","CNCR05"];
-  const vehicle = ["Xe01", "Xe 02","Xe03","Xe04","Xe05","Xe06","Xe07","Xe08","Xe09","Xe10"]
+  const Janitors = ["CNVS01","CNVS02", "CNVS03","CNVS04"];
+  const Collector = ["CNCR01","CNCR02", "CNCR03","CNCR04"];
+  const vehicle = ["Xe01", "Xe02","Xe03","Xe04","Xe05"]
   const MCPs = ["MCP01","MCP02", "MCP03","MCP04","MCP05", "MCP06","MCP07", "MCP08","MCP09","MCP10"];
   const Calendar = ["Ca 1", "Ca 2", "Ca 3", "Ca 4"];
   return (
@@ -163,7 +163,7 @@ export default function AssignTask() {
           onSearch={function noRefCheck(){}}
           onSelect={function noRefCheck(){}}
           options={vehicle}
-          showCheckbox
+          singleSelect
           placeholder="Chọn xe"
           hidePlaceholder = {true}
           style={{

@@ -3,7 +3,7 @@ import Task from './components/task';
 import AssignTask from "./components/assign_task";
 import Vehicle from './components/vehicle';
 import MCP from './components/mcp';
-import Message from './components/message';
+import Chat from './components/chatfeed';
 import Login from "./Login";
 import FirstTab from "./components/Home_components/AllTabs/FirstTab";
 import SecondTab from "./components/Home_components/AllTabs/SecondTab";
@@ -38,7 +38,7 @@ function App() {
             Component = MCP
             break
         case "/message":
-            Component = Message
+            Component = Chat
             break
         case "/cnvs":
             Component = FirstTab

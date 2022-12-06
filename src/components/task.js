@@ -20,8 +20,8 @@ export default function Task() {
     
       <div class = "task-content">
     	  <h1>Việc đã giao</h1>
-        <h3>Ngày: 14/11/2022</h3>
-        <h3>Đến: 21/11/2022</h3>
+        <h3>Ngày: 07/12/2022</h3>
+        <h3>Đến: 14/11/2022</h3>
         <br/>
         <p>Điểm danh</p>
 

@@ -1,8 +1,11 @@
 import { FiMessageSquare } from "react-icons/fi";
 
 function NavBar (){
-    const homeClass = window.location.pathname.match(/^\/home/) ? "active" : "";
-    const taskClass = window.location.pathname.match(/^\/task/) ? "active" : "";
+    const homeClass = window.location.pathname.match(/^\/home/) 
+    || window.location.pathname.match(/^\/cncr/) 
+    || window.location.pathname.match(/^\/cnvs/) ? "active" : "";
+    const taskClass = window.location.pathname.match(/^\/task/) 
+    || window.location.pathname.match(/^\/assign/) ? "active" : "";
     const vehicleClass = window.location.pathname.match(/^\/vehicle/) ? "active" : "";
     const mcpClass = window.location.pathname.match(/^\/mcp/) ? "active" : "";
 

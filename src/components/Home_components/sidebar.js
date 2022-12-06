@@ -1,6 +1,6 @@
 function SideBar (){
-    const cnvsClass = window.location.pathname.match(/^\/cnvs/) ? "active" : "";
-    const cncrClass = window.location.pathname.match(/^\/cncr/) ? "active" : "";
+    const cnvsClass = window.location.pathname.match(/^\/cnvs/) ? "side-bar-active" : "";
+    const cncrClass = window.location.pathname.match(/^\/cncr/) ? "side-bar-active" : "";
 
     return(
         <>

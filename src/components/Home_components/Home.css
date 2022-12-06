@@ -4,7 +4,7 @@ width: 300px;
 height: 300px;
 left: 400px;
 top: 100px;
-background: #FFBDA8;
+background: #D9D9D9;
 border-radius: 30px;
 }
 
@@ -14,7 +14,7 @@ width: 300px;
 height: 300px;
 left: 900px;
 top: 100px;
-background: #FFBDA8;
+background: #D9D9D9;
 border-radius: 30px;
 }
 
@@ -24,7 +24,7 @@ border-radius: 30px;
   height: 300px;
   left: 400px;
   top: 450px;
-  background: #FFBDA8;
+  background: #D9D9D9;
   border-radius: 30px;
 }
 
@@ -34,7 +34,7 @@ border-radius: 30px;
     height: 300px;
     left: 900px;
     top: 450px;
-    background: #FFBDA8;
+    background: #D9D9D9;
     border-radius: 30px;
 }
 
@@ -78,10 +78,11 @@ a:hover.name {
 }
 
 #status-onl {
-  color: green;
+  color: #52EB2C;
   margin-left: 20px;
   margin-top: 10px;
   font-size: 18px;
+  font-weight: bold;
 }
 
 #status-working {
@@ -89,6 +90,7 @@ a:hover.name {
   margin-left: 20px;
   margin-top: 10px;
   font-size: 18px;
+  font-weight: bold;
 }
 
 #status-off {
@@ -96,12 +98,13 @@ a:hover.name {
   margin-left: 20px;
   margin-top: 10px;
   font-size: 18px;
+  font-weight: bold;
 }
 
 .dot-green {
   height: 15px;
   width: 15px;
-  background-color: green;
+  background-color: #52EB2C;
   border-radius: 50%;
   display: inline-block;
 }
@@ -127,7 +130,7 @@ a:hover.name {
   position: absolute;
   width: 1000px;
   height: 650px;
-  left: 400px;
+  left: 290px;
   top: 100px;
   background: #FFBDA8;
   border-radius: 30px;
@@ -180,7 +183,7 @@ a:hover.name {
   margin-left: 280px;
   margin-top: -180px;
   font-size: 20px;
-  color:green;
+  color:#52EB2C;
 }
 
 #statusInfo-working {

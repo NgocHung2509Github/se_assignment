@@ -7,6 +7,9 @@ export default function Home() {
     <>
       <NavBar />
       <SideBar />
+      <div class = "welcome">
+        <h1>Welcome to UWC 2.0</h1>
+      </div>
     </>
     
   );

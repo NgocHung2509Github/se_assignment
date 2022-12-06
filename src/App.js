@@ -1,5 +1,6 @@
 import Home from "./components/home";
 import Task from './components/task';
+import AssignTask from "./components/assign_task";
 import Vehicle from './components/vehicle';
 import MCP from './components/mcp';
 import Message from './components/message';
@@ -26,6 +27,9 @@ function App() {
             break
         case "/task":
             Component = Task
+            break
+        case "/assign":
+            Component = AssignTask
             break
         case "/vehicle":
             Component = Vehicle

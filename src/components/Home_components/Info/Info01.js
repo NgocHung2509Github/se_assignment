@@ -18,16 +18,16 @@ const Info01 = () => {
         <p id="Infor">Số điện thoại: 0898989898<br/>CMND/CCCD: 97532188654<br/>Địa chỉ: 123 Đường D1, Phường Tân Hưng, Quận 7, TP.HCM<br/><br/>Lịch làm việc:</p>
         <div className="shift">
         <tr>
-          <td>01:00 &#8594; 02:00</td>
+          <td>Ca 1</td>
         </tr>
         <tr>
-          <td>05:00 &#8594; 06:00</td>
+          <td>Ca 2</td>
         </tr>
         <tr>
-          <td>14:00 &#8594; 15:00</td>
+          <td>Ca 3</td>
         </tr>
         <tr>
-          <td>20:00 &#8594; 21:00</td>
+          <td>Ca 4</td>
         </tr>
         </div>
         <div className="tableInfo">

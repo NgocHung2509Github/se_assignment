@@ -87,21 +87,12 @@ h2 .Login-box-name{
     background-color: #FFBDA8;
 }
 
-@keyframes ani {
-    from {color: white;}
-    to {color: black;}
-}
-
 @keyframes bounce {
     0%   { transform: translateY(0px); }
-    50%  { transform: translateY(-50px); }
+    40%  { transform: translateY(-50px); }
     100% { transform: translateY(0px); }
 }
 
-.welcome:hover {
-    animation-name: bounce;
-    animation-timing-function: ease;
-}
 
 .welcome {
     background-color: #FFBDA8;
@@ -116,7 +107,9 @@ h2 .Login-box-name{
     align-items: center;
 
     border-radius: 50%;
-    animation-duration: 1s;
+    animation-duration: 3s;
+    animation-name: bounce;
+    animation-timing-function: ease;
     animation-iteration-count: infinite;
     transform-origin: bottom;
 }

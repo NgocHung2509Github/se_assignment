@@ -163,7 +163,7 @@ export default function AssignTask() {
           onSearch={function noRefCheck(){}}
           onSelect={function noRefCheck(){}}
           options={vehicle}
-          singleSelect
+          showCheckbox
           placeholder="Chọn xe"
           hidePlaceholder = {true}
           style={{

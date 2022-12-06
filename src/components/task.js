@@ -26,19 +26,23 @@ export default function Task() {
         <p>Điểm danh</p>
 
         <div class = "task-diemdanh">
-          <p>CNVS1</p>
+          <p>CNVS01</p>
           <div class = "active-dot"></div>
         </div>
         <div class = "task-diemdanh">
-          <p>CNVS2</p>
+          <p>CNVS02</p>
           <div class = "active-dot"></div>
         </div>
         <div class = "task-diemdanh">
-          <p>CNVS3</p>
+          <p>CNVS03</p>
           <div class = "active-dot"></div>
         </div>
         <div class = "task-diemdanh">
-          <p>CNCR1</p>
+          <p>CNCR01</p>
+          <div class = "active-dot"></div>
+        </div>
+        <div class = "task-diemdanh">
+          <p>CNCR02</p>
           <div class = "active-dot"></div>
         </div>
         <br/>

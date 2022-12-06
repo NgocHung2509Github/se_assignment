@@ -93,9 +93,15 @@
 }
 .chatfeed .chat .chatIcons img {
   margin-right: 15px;
-  height: 24px;
+  height: 30px;
   cursor: pointer;
 }
+
+.chatfeed .chat .chatIcons img:hover {
+  border-radius: 50%;
+  background-color: #B9B9B9;
+}
+
 .chatfeed .chat .messages {
   background-color: white;
   padding: 10px;
@@ -176,4 +182,8 @@
   color: white;
   background-color: #FF7777;
   border-radius: 10px;
+}
+
+.chatfeed .chat .input .send button:hover {
+  opacity: 0.8;
 }

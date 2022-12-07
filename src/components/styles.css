@@ -261,6 +261,10 @@ h2 .Login-box-name{
     border-radius: 0px 0px 15px 15px;
 }
 
+#cal {
+    overflow: auto;
+}
+
 .task-r-text {
     padding: 7px 0px 0px 10px;
 }

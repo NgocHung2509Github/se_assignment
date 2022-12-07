@@ -84,12 +84,18 @@ export default function Task() {
               <p class = "vehicle-text">Tình Trạng: Sẵn sàng</p>            
             </div>
 
-            <div class = "task-nd-box">
+            <div class = "task-nd-box" id = "cal">
               <ul>
                 <li>22:00:00 CNVS bắt đầu thu gom rác ở các khu vực.</li>
                 <li>24:00:00 CNVS đem rác đến những nơi thu thập chính.</li>
                 <li>01:00:00 CNCR thu gom rác ở những điểm thu thập chính</li>
-                <li>02:00:00 Hoàn thành</li>
+                <li>03:00:00 Hoàn thành</li>
+              </ul>
+              <ul>
+                <li>11:00:00 CNVS bắt đầu thu gom rác ở các khu vực.</li>
+                <li>13:00:00 CNVS đem rác đến những nơi thu thập chính.</li>
+                <li>14:00:00 CNCR thu gom rác ở những điểm thu thập chính</li>
+                <li>16:00:00 Hoàn thành</li>
               </ul>
             </div>
           </div>
